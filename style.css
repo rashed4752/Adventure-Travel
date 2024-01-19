@@ -1,0 +1,15 @@
+/* google font link */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* -------------------- */
+
+/* header section css style  */
+.header{
+    font-family: 'Mulish';
+}
+.header h2, span{
+    font-weight: 1000;
+}
+.header h2>span{
+    color: #FF5400;
+}
+/* ---------------------------- */

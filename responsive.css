@@ -1,0 +1,94 @@
+@media only screen and (max-width: 600px) {
+    body{
+        font-family: 'Mulish';
+    }
+    .header{
+        width: 95%;
+        margin: 0 auto;
+        font-family: 'Mulish';
+        display: flex;
+        align-items: center;
+    }
+    .header h2, span{
+        font-size: 30px;
+    }
+    .header img{
+        display: inline;
+    }
+    .logo_heading img {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .logo_heading {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+    .menu{
+        width: 35%;
+    }
+    i.fa-solid.fa-bars {
+        float: right;
+    }
+    .fa-solid{
+        font-size: 45px;
+    }
+
+
+    /* header banner section  */
+    .header_baneer_sec{
+        background: url('Images/Group\ 13\ \(1\)\ \(1\).png');
+        width: 580px;
+        height: 520px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 17px;
+        background-position: center;
+        text-align: center;
+        position: relative;
+    }
+    .opacity_back h2{
+        color: #fff;
+        font-size: 32px;
+        padding: 0px;
+        margin-top: 60px;
+        margin-bottom: 0px;
+    }
+    .opacity_back p{
+        color: #fff;
+        width: 470px;
+        font-size: 20px;
+        padding: 0px;
+        margin-top: 10px;
+    }
+    .opacity_back{
+        text-align: -webkit-center;
+        width: 580px;
+        height: 520px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+        border-radius: 17px;
+
+    }
+    .input_fild_sec {
+        display: inline-grid;
+        background: rgba(255, 255, 255, 0.30);
+        width: 450px;
+        justify-content: center;
+        border-radius: 10px;
+    }
+    
+    .input_fild_sec input {
+        margin: 10px 0px;
+        padding: 20px 15px;
+        width: 400px;
+        border-radius: 5px;
+        border: 0px;
+        font-size: 25px;
+        font-family: 'Mulish';
+    }
+    /* --------------------------- */
+}
